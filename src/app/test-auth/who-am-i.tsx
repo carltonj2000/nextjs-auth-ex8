@@ -13,5 +13,5 @@ export default function WhoAmI({
     onGetUserAction().then((user) => userSet(user));
   }, [onGetUserAction]);
 
-  return <div className="mt-5">I am {user}</div>;
+  return <div className="mt-5">I am {user} - via server actions</div>;
 }

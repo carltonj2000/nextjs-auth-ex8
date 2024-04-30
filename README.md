@@ -1,5 +1,13 @@
 # Next Auth Example 8
 
+Use email and password auth credentials and test the follow examples:
+
+- Auth Middleware
+- Auth In Server Actions
+- Auth In API Routes
+- Authenticated Client Calls
+- Authenticated Server Calls
+
 ## Code History
 
 The code in this repository is based on:

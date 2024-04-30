@@ -11,5 +11,5 @@ export default function WhoAmI() {
       .then(({ user }) => userSet(user));
   }, []);
 
-  return <div className="mt-5">I am {user}</div>;
+  return <div className="mt-5">I am {user} - via api route</div>;
 }
